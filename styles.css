@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Button */
+.req-in {
+	background:linear-gradient(to bottom, hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 100%);
+	background-color:#44c767;
+    border: none;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-weight: 700;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.req-in:hover {
+	background:linear-gradient(to bottom, #2a84bd 5%, #44c767 100%);
+	background-color:#2a84bd;
+}
+.req-in:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-border-gradient {
+    border-style: none none solid;
+    border-width: 8px;
+    border-image: linear-gradient(to right bottom, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-image-slice: 1;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+}
+
+.navbar {
+    padding: 0;
+}
+
+div.container-fluid {
+    height: 70px;
+}
+
+.navbar-brand img{
+    width: 110%;
+}
+
+.navbar-collapse {
+    background-color: #ffffff;
+    padding: 5%;
+}
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin: auto;
+    }
+    .navbar-collapse {
+    padding: 0%;
+}
+}
+
+
+.navbar-text .req-in {
+    display: none;
+}
+@media (min-width: 992px) and  (max-width: 1024px) {
+    .navbar-text .req-in {
+        display: inline-block;
+    }
+}
+
+
+/* Intro Section */
+
+#intro {
+    background-image: url("images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -50%;
+    padding: 4%;
+}
+
+.phones-img {
+    margin-top: -140px;
+    width: 100%;
+}
+
+.intro-container {
+    margin-top: 4%;
+}
+
+.big-heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+}
+
+.paragraphs {
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+    padding: 4% 0;
+}
+
+
+/* Why we section */
+#why-we {
+    margin-top: 20%;
+    padding: 4%;
+}
+
+.why-we-features div {
+    margin-top: 10%;
+}
+
+.features-heading {
+    font-size: 1.6rem;
+    color: hsl(233, 26%, 24%);
+    padding: 4% 0;
+}
+
+
+/* Articles Section */
+#articles {
+    margin-top: 20%;
+    padding: 4%;
+}
+
+#articles .big-heading {
+    padding: 4% 0;
+}
+
+.articles-img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.articles-box {
+    margin-top: 15%;
+}
+
+.articles-info-box {
+    margin: 5% 10%;
+    text-align: left;
+}
+
+.authors {
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+}
+
+.articles-heading {
+    color: hsl(233, 26%, 24%);
+    font-size: 22px;
+}
+
+.articles-paragraphs {
+    color: hsl(233, 8%, 62%);
+    font-size: 17px;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: hsl(233, 26%, 24%);
+    color: #fff;
+    padding: 5%;
+}
+
+.left-foot {
+    word-spacing: 10px;
+    font-size: 1.6rem;
+}
+
+.foot a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.right-foot button {
+    margin: 5%;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+body {
+    font-size: 20px;        
+}
+
+/* Navbar */
+
+div.container-fluid {
+    height: 100px;
+}
+
+.navbar-brand img{
+    width: 110%;
+}
+
+/* Intro Section */
+#intro {
+    background-size: cover;
+    background-position-y: -250px;
+    padding: 10%;
+}
+
+.phones-img {
+    margin-top: -200px;
+    width: 80%;
+}
+
+.intro-container {
+    margin-top: 10%;
+}
+
+
+
+/* Why we Section */
+#why-we {
+    margin-top: 5%;
+    padding: 10%;
+}
+
+.why-we-container {
+    padding-bottom: 10%;
+}
+
+.why-we-features {
+    line-height: 1.7;
+}
+
+.why-we-features div {
+    display: inline-block;
+    margin-top: 15%;
+    margin: 0 7%;
+    width: 35%;
+}
+
+
+/* Articles Section */
+#articles {
+    margin-top: 5%;
+    padding: 4%;
+}
+
+#articles .big-heading {
+    padding: 0 0 7%;
+}
+
+.articles-img {
+    width: 100%;
+}
+
+.articles-box {
+    display: inline-block;
+    margin-top: 15%;
+    margin: 0 4% 10%;
+    width: 40%;
+}
+
+/* Footer Section */
+
+#footer {
+    line-height: 2.7;
+}
+
+.left-foot {
+    word-spacing: 15px;
+    font-size: 2rem;
+}
+
+.right-foot button {
+    margin: 7%;
+}
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+.navbar-text .req-in {
+    display: inline-block;
+}
+
+/* Intro Section */
+
+#intro {
+    background-image: none;
+    padding: 0 0 0 7%;
+    position: relative;
+    overflow: hidden;
+}
+
+.phones-img {
+    background-image: url("images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 150%;
+    background-position-x: 30%;
+    float: right;
+    margin-top: -100px;
+    width: 55%;
+}
+
+.intro-container {
+    float: left;
+    margin-top: 0%;
+    width: 35%;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Why we section */
+#why-we {
+    margin-top: 0%;
+    padding: 7%;
+    text-align: left;
+}
+
+.why-we-container {
+    width: 60%;
+}
+
+.why-we-features {
+    display: flex;
+}
+
+.why-we-container {
+    padding-bottom: 0%;
+}
+
+.why-we-features div {
+    display: inline-block;
+    margin-top: 5%;
+    margin: 0 1%;
+    padding: 0;
+    width: 100%;
+}
+
+.features-heading {
+    font-size: 1.6rem;
+    color: hsl(233, 26%, 24%);
+    padding: 15% 0;
+}
+
+
+/* Articles Section */
+#articles {
+    font-size: 14px;
+    margin-top: 0%;
+    padding: 7%;
+    text-align: left;
+}
+
+.articles-container {
+    display: flex;
+    padding: 0;
+}
+
+#articles .big-heading {
+    padding: 0 0 7%;
+}
+
+.articles-info-box {
+    padding: 0;
+    margin: 2%;
+}
+
+.articles-img {
+    width: 100%;
+}
+
+.articles-box {
+    display: inline-block;
+    margin-top: 10%;
+    margin: 0 2%;
+    width: 100%;
+}
+
+/* Footer Section */
+
+#footer {
+    display: flex;
+    line-height: 2.7;
+    text-align: left;
+    position: relative;
+}
+
+.foot {
+    margin: 3%;
+}
+
+.left-foot {
+    word-spacing: 10px;
+    font-size: 1.5rem;
+}
+
+.right-foot {
+    text-align: right;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 5%;
+}
+
+.right-foot button {
+    margin: 0%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
